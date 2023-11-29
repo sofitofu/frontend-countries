@@ -24,7 +24,7 @@ export default function CountryComponent({country, getData}) {
         <br/>
             </div>
             <div>
-                {country.name}
+                {country.nombre}
                 {country.capital}
             <br/>
             <button onClick={handlerRemove}>Eliminar</button>
